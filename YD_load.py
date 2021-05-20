@@ -2,9 +2,9 @@ import requests
 class YaUploader:
     def __init__(self, file_path: str):
         self.file_path = file_path
-        self.OAuth = 'AQAAAAAAONHMAADLWwvS9ato0E0WnSlDhcPEv-s'
-        self.ID = 'e323f17f6d1142ea8b84bf60a299ce4a'
-        self.password = '97454d77308e497aa0976d9d8c0df1b9'
+        self.OAuth = ''
+        self.ID = ''
+        self.password = ''
     def get_headers(self):
     	return { 'Content-Type':'application/json', 'Authorization':'OAuth {}'.format(self.OAuth)}
     	
